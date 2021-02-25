@@ -210,8 +210,8 @@ def user_stats(df):
 
     # Display earliest, most recent, and most common year of birth
     if 'Birth_Year' in df:
-        print('\nEarliest year of birth:', int(df['Birth_Year'].min()))
-        print('\nMost recent year of birth:', int(df['Birth_Year'].max()))
+        print('\Oldest year of birth:', int(df['Birth_Year'].min()))
+        print('\nYoungest year of birth:', int(df['Birth_Year'].max()))
 
         birth_df = df.groupby('Birth_Year').count()
 
