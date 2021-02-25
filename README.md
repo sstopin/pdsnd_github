@@ -7,7 +7,7 @@ Feburary 24, 2021
 Bicycle usage by city
 
 ### Description
-Describe what your project is about and what it does
+Allows user to see bicycle usage in 3 different cities
 
 ### Files used
 chicago.csv
